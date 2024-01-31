@@ -5,7 +5,8 @@ _pkgname=KaKs_Calculator
 pkgver=3.0
 pkgrel=1
 pkgdesc="Calculating Selective Pressure on Coding and Non-coding Sequences. https://doi.org/10.1016/j.gpb.2021.12.002"
-arch=('x86_64')
+arch=('x86_64'
+      'loong64')
 url="https://ngdc.cncb.ac.cn/biocode/tools/BT000001"
 license=('custom')
 depends=( 'glibc'
